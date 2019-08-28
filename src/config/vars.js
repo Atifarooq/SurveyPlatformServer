@@ -3,8 +3,7 @@ const path = require('path');
 // import .env variables
 const dotenv = require('dotenv-safe')
 dotenv.config({
-  path: path.join(__dirname, '../../.env'),
-  sample: path.join(__dirname, '../../.env.example')
+  path: path.join(__dirname, '../../.env')
 });
 
 module.exports = {
